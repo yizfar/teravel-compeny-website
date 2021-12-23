@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+main .container {
+  min-height: 500px;
+  background-image: url("images\globusworld.jpg") repeat;
+}
+#id_header {
+  background-color: #fbb040c0;
+}
+main h1 {
+  font-family: "Pattaya", "Henny Penny";
+}
+main h2 {
+  color: #262262;
+  font-weight: bolder;
+}
+main .btn {
+  color: #fbb040;
+  background-color: #262262;
+  font-size: large;
+}
+main .btn:hover {
+  transform: scale(0.85, 0.85);
+  color: #262262;
+  background-color: #fbb040;
+}
+main #id_refreshicon {
+  font-size: 80px;
+  color: #262262;
+  background: #ce5937;
+  background: -moz-linear-gradient(left, #ce5937 0%, #1c6ea4 85%, #c59237 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #ce5937 0%,
+    #1c6ea4 85%,
+    #c59237 100%
+  );
+  background: linear-gradient(to right, #ce5937 0%, #1c6ea4 85%, #c59237 100%);
+  border-radius: 34%;
+}

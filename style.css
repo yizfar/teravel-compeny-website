@@ -1,0 +1,154 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+body a #id_gift {
+  color: #fbb040;
+  text-shadow: 2px 2px 2px #ce5937;
+  font-size: 50px;
+  position: fixed;
+  right: 35px;
+  bottom: 100px;
+  transform: rotate(345deg);
+
+  transition-duration: 2500ms;
+}
+
+#id_phone {
+  display: none;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  font-size: 25px;
+  position: fixed;
+  right: 35px;
+  top: 20px;
+  color: white;
+  background-color: #4bca5a;
+}
+
+header {
+  height: 80px;
+  background: #fbb040;
+  padding: 14px 0;
+  min-height: 80px;
+}
+header .container {
+  width: 1100px;
+}
+header span {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  margin-left: 10px;
+}
+
+header nav a {
+  color: #fbb040;
+  background-color: #262262;
+  border: 2px solid #262262;
+  padding: 18px 16px;
+  margin-left: 8px;
+  border-radius: 8px;
+  transition: 1000ms;
+  /* text-decoration: none;
+  
+  /* display: inline-block;
+  transition: 1000ms; */
+}
+
+.burger {
+  display: none;
+}
+
+.nav2 {
+  height: 40px;
+  color: #fbb040;
+  background-color: #262262;
+  border: 2px solid #262262;
+}
+
+.nav2 a {
+  color: #fbb040;
+  padding: 4px 36px;
+  font-size: large;
+  text-decoration: none;
+  word-wrap: normal;
+  display: inline-block;
+  transition: 1500ms;
+}
+.nav2 a:hover {
+  transform: scale(0.85, 0.85);
+
+  color: #262262;
+}
+
+header nav a:hover {
+  background: #fbb040;
+  color: #262262;
+
+  transform: scale(0.85, 0.85);
+}
+footer .container {
+  width: 1100px;
+}
+footer {
+  min-height: 150px;
+  background: #262262;
+  color: white;
+}
+footer h4 {
+  /* background: grey; */
+  color: #fbb040;
+  padding: 12px;
+}
+
+footer ul a {
+  color: grey;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fbb040;
+}
+footer #id_iconfooter a {
+  font-size: xx-large;
+  color: #fbb040;
+  transition: 500ms;
+}
+footer #id_iconfooter a:hover {
+  color: aliceblue;
+  transform: scale(2em);
+}
+
+
+
+
+@media (max-width: 988px) {
+  #nav_number {
+    display: none;
+  }
+  #id_phone {
+    display: inline-block;
+  }
+  .burger {
+    display: block;
+    text-align: center;
+  }
+  #nav_open {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    left: 20px;
+    display: none;
+    width: 100%;
+    background: #262262;
+  }
+  .nav2 a {
+    display: block;
+    padding: 16px;
+    border-bottom: 1px solid gray;
+  }
+  nav .nav2 a:hover {
+    color: #622222;
+
+    transform: scale(2);
+  }
+}

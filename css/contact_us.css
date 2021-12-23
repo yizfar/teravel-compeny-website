@@ -1,0 +1,30 @@
+main {
+  height: 600px;
+  background: #fbb040;
+}
+main .container {
+  height: 600px;
+  background: #262262;
+}
+main h1 {
+  color: #fbb040;
+  padding-top: 30px;
+}
+form label {
+  color: #fbb040;
+  margin-bottom: 20px;
+}
+#send_btn {
+  background-color: #fbb040;
+}
+#callUs {
+  color: #fbb040;
+  padding: 6px;
+}
+hr {
+  color: silver;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}

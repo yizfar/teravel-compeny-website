@@ -1,0 +1,90 @@
+<main class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+      <div id="id_left_banners" class="col-lg-3 p-4 text-center">
+        <h2 class="mb-5">England</h2>
+
+        <div class="border banner p-3">
+          <img src="images/uk.png" class="w-75 mb-3" alt="banner" />
+          <h3 class="mb-3">The Big ben</h3>
+          <p>
+            Big Ben is the nickname for the Great Bell of the striking clock at
+            the north end of the Palace of Westminster,although the name is
+            frequently extended to refer also to the clock and the clock tower
+          </p>
+        </div>
+        <!-- end banner -->
+        <div
+          data-aos="zoom-out-right"
+          data-aos-duration="2000"
+          class="border banner p-3 mt-5"
+        >
+          <img src="images/pic2.jpg" class="w-75 mb-3" alt="banner" />
+          <h3 class="mb-3">Biden cakes</h3>
+          <p>
+            Cake is a form of sweet food made from flour, sugar, and other
+            ingredients, that is usually baked. In their oldest forms, cakes
+            were modifications of bread, but cakes now cover a wide range of
+            preparations that can be simple or elaborate, and that share
+            features with other desserts such as pastries, meringues, custards,
+            and pies.
+          </p>
+        </div>
+        <!-- end banner -->
+      </div>
+      <div class="col-lg-6">
+        <h1 class="text-center display-2">Tour the World</h1>
+        <p class="mt-4">
+          The origin of the word "travel" is most likely lost to history. The
+          term "travel" may originate from the Old French word travail, which
+          means 'work'. According to the Merriam Webster dictionary, the first
+          known use of the word travel was in the 14th century. It also states
+          that the word comes from Middle English travailen, travelen and
+          earlier from Old French travailler . In English, people still
+          occasionally use the words travail, which means struggle. According to
+          Simon Winchester in his book The Best Travelers' Tales, the words
+          travel and travail both share an even more ancient root: a Roman
+          instrument of torture called the tripalium. This link may reflect the
+          extreme difficulty of travel in ancient times. Travel in modern times
+          may or may not be much easier depending upon the destination. Travel
+          to Mount Everest, the Amazon rainforest, extreme tourism, and
+          adventure travel are more difficult forms of travel. Travel can also
+          be more difficult depending on the method of travel, such as by bus,
+          cruise ship, or even by bullock cart.
+        </p>
+      </div>
+
+      <div id="id_right_banners" class="col-lg-3 p-4 text-center">
+        <h2 class="mb-5">Our sponsers</h2>
+        <div class="border banner p-3">
+          <img src="images/pic3.jpg" class="w-75 mb-3" alt="banner" />
+          <h3 class="mb-3">Koko cakes</h3>
+          <p>
+            Cake is a form of sweet food made from flour, sugar, and other
+            ingredients, that is usually baked. In their oldest forms, cakes
+            were modifications of bread, but cakes now cover a wide range of
+            preparations that can be simple or elaborate, and that share
+            features with other desserts such as pastries, meringues, custards,
+            and pies.
+          </p>
+        </div>
+        <!-- end banner -->
+        <div class="border banner p-3 mt-5">
+          <img src="images/pic4.jpg" class="w-75 mb-3" alt="banner" />
+          <h3 class="mb-3">Biden cakes</h3>
+          <p>
+            Cake is a form of sweet food made from flour, sugar, and other
+            ingredients, that is usually baked. In their oldest forms, cakes
+            were modifications of bread, but cakes now cover a wide range of
+            preparations that can be simple or elaborate, and that share
+            features with other desserts such as pastries, meringues, custards,
+            and pies.
+          </p>
+        </div>
+        <!-- end banner -->
+      </div>
+    </div>
+  </div>
+</main>
+
+When is the last time you take a vacation

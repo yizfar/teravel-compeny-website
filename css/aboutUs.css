@@ -1,0 +1,23 @@
+body {
+  background-color: silver;
+}
+div.us{
+  
+ background-color: rgba(121, 119, 119, 0.404);
+ margin-bottom: 30px;
+}
+#id_Abotus {
+  font-size: x-large;
+}
+.about_us img {
+  box-shadow: 8px 10px 12px 12px #fbb04050;
+}
+
+
+
+@media (max-width: 988px) {
+
+  #id_Abotus {
+  text-align: left ;
+  }
+}

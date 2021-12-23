@@ -1,0 +1,11 @@
+main {
+  min-height: 800px;
+  background: rgb(135, 134, 136);
+  font-family: "Roboto Slab", serif;
+}
+
+main .container {
+  width: 500px;
+  background-color: #26226234;
+  padding: 40px;
+}

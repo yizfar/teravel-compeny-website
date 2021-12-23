@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/trevia.css">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+   
+    <title>Pleasures & vacations</title>
+    <script src="js/hom1.js"></script>
+    <script src="lodash.min.js"></script>
+    <script type="module" src="js/app_trivia.js"></script>
+  </head>
+  <body>
+    
+    <header class="container-fluid">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="logo col-lg-6 p-0">
+             
+              <a href="index.html">  <img src="images/Pleasures and vacations (1).png"  width="60px" class="  border" ></a>
+          <span  id ="logoWord">Pleasures & vacations</span>
+            </div>
+            <nav id="nav_number" class="col-lg-6  text-end p-0  ">
+              <a href="contactUs.html"><i class="fa fa-phone h3" aria-hidden="true"></i> 059-568888911</a>
+            
+            <!-- </nav>
+            <nav id="nav_number2" class="col-lg-8  text-end p-3 position-absolute top-0 end-0 d-lg-none ">
+              <a href="contactUs.html"><i class="fa fa-phone h3" aria-hidden="true"></i> 059-568888911</a>
+            
+            </nav> -->
+        </div>
+        
+    </header>
+    
+    
+    <nav class=" nav2 container-fluid text-center 
+     ">
+     
+     <div class="burger">
+      <svg id="burger_btn" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+    </div>
+      <div  id ="nav_open" class="  container mt-auto">
+        <a href="index.html">Home</a>
+        <a href="faq.html">Faq</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="contactUs.html">Contact</a>
+       
+      </div>
+    </nav>
+    <a href="trevia.html"> <i id="id_gift" class="fa fa-gamepad" aria-hidden="true" ></i></a> 
+    
+    <a href="contactUs.html"><i  id="id_phone" class="fa fa-phone" aria-hidden="true"></i></a>
+    
+
+    <main class="container-fluid" style="background-image: url(images/globusworld.jpg);  background-size: cover;
+    background-position: center;background-size: 100%;">
+        <div class="col-lg-6 mx-auto text-center container " >
+         <div id= "id_header" class=" h-25 p-4"> <h1> <strong> Do you know the world?</strong></h1>
+          <h2>Question: <span id="id_q"></span></h2></div>
+          <div  class="">
+            <button  class="w-50 btn m-3 " id="id_a1">answer 1</button>
+            <button  class="w-50 btn m-3" id="id_a2">answer 2</button>
+            <button  class="w-50 btn m-3" id="id_a3">answer 3</button>
+            <button  class="w-50 btn m-3" id="id_a4">answer 4</button>
+          </div>
+         <a href="trevia.html"> <i id="id_refreshicon" class="fa fa-refresh" aria-hidden="true"></i></a>
+        </div>
+      
+    </main>
+    <footer  class="container-fluid">
+      <div class="container">
+        <div class="row  row-lg-cols-4 g-2">
+          <div class="col-md">
+            <h4 class="lead pt-4 ">About us</h4>
+
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="faq.html">Faq</a>
+              </li>
+              <li>
+                <a href="gallery.html">Gallery</a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="col-md">
+            <h4 class="lead pt-4 ">Contact us</h4>
+
+            <ul>
+              <li>
+                <a href="contactUs.html">Contact us</a>
+              </li>
+              <li>
+                <a href="policy.html">Terms & Policy</a>
+              </li>
+              <li>
+                <a href="trevia.html">Trivia</a>
+              </li>
+            </ul>
+            
+          </div>
+          <div class="col-md">
+          <a href="index.html"> <img  class=" p-4 " src="images/logo2.png"  width="50%"  alt=""></a>
+            
+          </div>
+          <div id="id_iconfooter"  class="col-md align-self-md-end pb-4">
+           <!-- <img  class=" mt-5 " src="images/icons.jpg"  width="80%"  alt=""> -->
+           <a href="https://www.facebook.com/"><i class="fa fa-facebook-square p-2" aria-hidden="true"></i></a>
+           <a href="contactUs.html"> <i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+           <a href="contactUs.html"> <i class="fa fa-whatsapp p-2" aria-hidden="true"></i></a>
+          </div>
+       
+           
+            
+        
+        </div>
+             
+      </div>
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script><!--  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/burger.js"></script>
+</body>
+</html>
